@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<FME_Popup>
+			<version>1.0.0</version>
+		</FME_Popup>
+	</modules>
+	<frontend>
+		<layout>
+			<updates>
+				<popup>
+					<file>popup.xml</file>
+				</popup>
+			</updates>
+		</layout>
+	</frontend>
+	<adminhtml>
+	</adminhtml>
+	<global>
+		<blocks>
+			<popup>
+				<class>FME_Popup_Block</class>
+			</popup>
+		</blocks>
+		<helpers>
+			<popup>
+				<class>FME_Popup_Helper</class>
+			</popup>
+		</helpers>
+	</global>
+	<default>
+	</default>
+</config>
